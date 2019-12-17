@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-#define int long long
 typedef pair<int, int> pii;
 #define rep(i, n) for (int i = 0; i < (n); ++i)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
@@ -13,6 +12,7 @@ typedef pair<int, int> pii;
 #define ALL(x) (x).begin(), (x).end()
 #define debug(x) cerr << #x << ": " << x << '\n'
 #define bit(n) (1LL << (n))
+#define int long long
 const double PI = 3.141593;
 const int MOD = (int)1e9 + 7;
 const int INF = 100100100;
@@ -29,7 +29,7 @@ signed main()
 {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
-
+  
 
   return 0;
 }
